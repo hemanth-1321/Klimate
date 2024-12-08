@@ -11,7 +11,7 @@ export const CurrentWeather = ({ data, locationName }: CurrentWeatherProps) => {
   // Destructure data with proper field names
   const {
     weather: [currentWeather],
-    main: { temp, feels_like, temp_min, temp_max, humidity },
+    main: { temp, temp_min, temp_max, humidity },
     wind: { speed },
   } = data;
 
